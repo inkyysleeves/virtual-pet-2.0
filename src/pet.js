@@ -22,7 +22,7 @@ Pet.prototype.walk = function() {
     }
 }
 Pet.prototype.feed = function() {
-    if ((this.hunger -= 3) <= MINIMUM_HUNGER) {
+    if ((this.hunger - 3) <= MINIMUM_HUNGER) {
         this.hunger = MINIMUM_HUNGER;
     } else {
         this.hunger -= 3;
