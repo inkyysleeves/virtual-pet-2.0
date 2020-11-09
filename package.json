@@ -1,0 +1,14 @@
+{
+    "name": "virtual-pet-2.0",
+    "version": "1.0.0",
+    "description": "redoing my virutl pet for manchester codes",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "author": "Me",
+    "license": "ISC",
+    "devDependencies": {
+        "jest": "^26.6.3"
+    }
+}
